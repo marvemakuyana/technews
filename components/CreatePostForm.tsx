@@ -70,7 +70,7 @@ export default function CreatePostForm() {
 
   return (
     <div>
-      <h2>Create Post</h2>
+      <h2>Create a Post</h2>
       <form onSubmit={handleSubmit} className="flex flex-col gap-2">
         <input
           onChange={(e) => setTitle(e.target.value)}
